@@ -1,0 +1,25 @@
+Unsorted Data (Original Input Order and Name)
+=============================================
+0 Victor
+1 Eve
+2 Juliet
+3 Hector
+4 Danielle
+5 Romeo
+6 Oscar
+7 June
+8 Ares
+9 Dannae
+
+Sorted-by-Length Data (Original Input Order and Name)
+=====================================================
+1 Eve
+7 June
+8 Ares
+5 Romeo
+6 Oscar
+0 Victor
+2 Juliet
+3 Hector
+9 Dannae
+4 Danielle
