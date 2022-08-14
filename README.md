@@ -7,7 +7,9 @@ Compilation of all my UNR class coursework in both majors
 | Subject  |  Description                                 |
 | :--------| :--------------------------------------------|
 | BIOL 415 |  Evolution                                   |
+| BIOL 476 |  Clocks, Rhythms, and Disease                |
 | BIOL 483 |  Infection, Immunity and Evolution of Disease|
+| CHEM 345 |  Organic Chemistry                           |
 
 ---
 **Computer Science and Engineering (CSE) Courses**
