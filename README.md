@@ -1,4 +1,4 @@
-# University of Nevada, Reno Coursework
+# Kobe's Classes
 
 Compilation of all my UNR class coursework in both majors
 
