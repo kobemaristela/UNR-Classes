@@ -1,4 +1,4 @@
-# Kobe's Classes
+# My Classes
 
 Compilation of all my UNR class coursework in both majors
 
