@@ -1,6 +1,6 @@
-# Project Title
+# University of Nevada, Reno Coursework
 
-Compilation of all my University of Nevada, Reno class coursework in both majors
+Compilation of all my UNR class coursework in both majors
 
 ## Coursework
 **Biology Courses**
