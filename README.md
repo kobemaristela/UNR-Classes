@@ -1,4 +1,4 @@
-# University of Nevada, Reno Classes
+# University of Nevada, Reno (UNR) Classes
 
 Compilation of all my UNR class coursework in both majors
 
