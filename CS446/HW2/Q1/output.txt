@@ -1,0 +1,60 @@
+Round 1 - No Process
+Time Elapsed (sec): 0
+              total        used        free      shared  buff/cache   available
+Mem:           2091         390        1297          24         403        1528
+Swap:             0           0           0
+
+Round 2 - Start 3 Firefox processes
+Time Elapsed (sec): 15
+              total        used        free      shared  buff/cache   available
+Mem:           2091         657         999          52         434        1234
+Swap:             0           0           0
+
+Round 3 - Start 3 Firefox processes
+Time Elapsed (sec): 30
+              total        used        free      shared  buff/cache   available
+Mem:           2091         704         929          75         457        1163
+Swap:             0           0           0
+
+Round 4 - Start 3 Firefox processes
+Time Elapsed (sec): 45
+              total        used        free      shared  buff/cache   available
+Mem:           2091         760         849          99         481        1084
+Swap:             0           0           0
+
+Round 5 - Start 3 Firefox processes
+Time Elapsed (sec): 60
+              total        used        free      shared  buff/cache   available
+Mem:           2091         818         771         119         501        1006
+Swap:             0           0           0
+
+Round 6 - Start 3 Firefox processes
+Time Elapsed (sec): 75
+              total        used        free      shared  buff/cache   available
+Mem:           2091         872         697         140         522         931
+Swap:             0           0           0
+
+Round 7 - Start 3 Firefox processes
+Time Elapsed (sec): 90
+              total        used        free      shared  buff/cache   available
+Mem:           2091         930         618         160         542         853
+Swap:             0           0           0
+
+Round 8 - Start 3 Firefox processes
+Time Elapsed (sec): 105
+              total        used        free      shared  buff/cache   available
+Mem:           2091         983         538         186         569         773
+Swap:             0           0           0
+
+Round 9 - Start 3 Firefox processes
+Time Elapsed (sec): 120
+              total        used        free      shared  buff/cache   available
+Mem:           2091        1040         455         213         595         690
+Swap:             0           0           0
+
+Round 10 - Start 3 Firefox processes
+Time Elapsed (sec): 135
+              total        used        free      shared  buff/cache   available
+Mem:           2091        1050         427         230         613         662
+Swap:             0           0           0
+

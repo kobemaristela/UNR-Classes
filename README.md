@@ -1,6 +1,6 @@
 # University of Nevada, Reno (UNR) Classes
 
-Compilation of all my UNR class coursework in both majors
+Compilation of my UNR classes coursework (includes Biology and CS courses)
 
 ## Coursework
 **Biology Courses**
@@ -18,5 +18,7 @@ Compilation of all my UNR class coursework in both majors
 | CS 135 |  Computer Science I      |
 | CS 202 |  Computer Science II     |
 | CS 301 |  Embedded Systems Design |
+| CS 302 |  Data Structures         |
 | CS 400 |  Computer Networking     |
+| CS 446 |  Operating Systems       |
 

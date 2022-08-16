@@ -1,0 +1,8 @@
+avahi      321  0.0  0.0   5916  2540 ?        Ss   05:35   0:00 avahi-daemon: running [kobepi.local]
+root      1637  0.3  0.1  12240  6536 ?        Ss   05:39   0:00 sshd: kobe [priv]
+kobe      1640  0.3  0.1  14600  6912 ?        Ss   05:39   0:00 /lib/systemd/systemd --user
+kobe      1641  0.0  0.0  35372  3424 ?        S    05:39   0:00 (sd-pam)
+kobe      1654  0.1  0.0  12240  3724 ?        S    05:39   0:00 sshd: kobe@pts/0
+kobe      1655  0.3  0.0   8488  3756 pts/0    Ss   05:39   0:00 -bash
+kobe      1672  0.0  0.0   9788  2520 pts/0    R+   05:39   0:00 ps aux
+kobe      1673  0.0  0.0   7348   576 pts/0    S+   05:39   0:00 grep --color=auto kobe
