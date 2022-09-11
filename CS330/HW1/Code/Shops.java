@@ -2,11 +2,11 @@ public abstract class Shops{
     Order myOrder;
     Payment myPayment;
 
-    public Shops(){
+    protected Shops(){
     }
 
     public void getOrder() {
-        myOrder.order();
+        myOrder.orderNumber();
     }
 
     public void mySale(){

@@ -1,5 +1,9 @@
 public class Computer implements Order {
-    public void order() {
-        System.out.println("Taking a computer order");
+    protected int myOrder = 0;
+
+    public void orderNumber() {
+        myOrder += 1;   // Assigns next integer 
+
+        System.out.println("Your order number: " + myOrder);
     }
 }

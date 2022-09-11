@@ -1,3 +1,3 @@
 public interface Order {
-    public void order();
+    public void orderNumber();
 }
