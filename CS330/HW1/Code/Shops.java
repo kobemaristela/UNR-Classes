@@ -6,11 +6,20 @@ public abstract class Shops{
     }
 
     public void getOrder() {
-        myOrder.orderNumber();
+        myOrder.makeOrder();
     }
 
-    public void mySale(){
-        myPayment.getSale();
+    public void getPayment(){
+        myPayment.makeSale();
+    }
+    
+    // Set payment and order dynamically
+    public void setPayment(Payment sale) {
+        myPayment = sale;
+    }
+
+    public void setOrder(Order order) {
+        myOrder = order;
     }
 
 }

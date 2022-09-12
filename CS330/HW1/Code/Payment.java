@@ -1,5 +1,5 @@
 
 
 public interface Payment {
-    public void getSale();
+    public void makeSale();
 }
