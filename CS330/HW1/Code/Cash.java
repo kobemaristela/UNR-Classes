@@ -7,7 +7,7 @@ import java.util.Locale;
 public class Cash implements Payment{
     private static Scanner reader = new Scanner(System.in);
 
-    public void makeSale(){
+    public void makePayment(){
         // Get credit card number
         System.out.print("Please enter sale amount: ");
         Double sale = reader.nextDouble();

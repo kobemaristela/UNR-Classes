@@ -10,7 +10,7 @@ public abstract class Shops{
     }
 
     public void getPayment(){
-        myPayment.makeSale();
+        myPayment.makePayment();
     }
     
     // Set payment and order dynamically

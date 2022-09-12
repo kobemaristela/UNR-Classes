@@ -7,7 +7,7 @@ import java.math.RoundingMode;
 public class CreditCard implements Payment{
     private static Scanner reader = new Scanner(System.in);
 
-    public void makeSale(){
+    public void makePayment(){
         // Get credit card number
         System.out.print("Please enter credit card number: ");
         Integer myCreditCard = reader.nextInt();

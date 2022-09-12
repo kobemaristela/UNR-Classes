@@ -16,6 +16,6 @@ public class ShaveIceDriver {
         iceStore.setPayment(new CreditCard()); // Set payment to credit card
 
         iceStore.getOrder(); // Generates new order number
-        iceStore.getPayment(); // Take credit card # and sale amount --> return sale and card #
+        iceStore.getPayment(); // Take credit card # and sale amount --> return sale and card # (Card Payment)
     }
 }

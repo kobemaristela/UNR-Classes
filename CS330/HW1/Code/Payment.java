@@ -1,5 +1,4 @@
 
-
 public interface Payment {
-    public void makeSale();
+    public void makePayment();
 }
