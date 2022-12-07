@@ -1,3 +1,5 @@
+
 public interface Command {
-    public void orderUp();
+	public void move(int x, int y, int newX, int newY);
+	public void undo();
 }
