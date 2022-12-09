@@ -22,4 +22,5 @@ Compilation of my UNR classes coursework (includes Biology and CS courses)
 | CS 330 |  Design Patterns         |
 | CS 400 |  Computer Networking     |
 | CS 446 |  Operating Systems       |
+| CS 482 |  Artificial Intelligence |
 
