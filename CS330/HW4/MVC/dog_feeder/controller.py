@@ -55,9 +55,9 @@ def get_today_meals():
 # Testing Purposes
 def reset_meals():
     meals = Fed.objects.get(today=date.today())
-    meals.is_fed_breakfast = True
-    meals.is_fed_lunch = True
-    meals.is_fed_dinner = True
+    meals.is_fed_breakfast = False
+    meals.is_fed_lunch = False
+    meals.is_fed_dinner = False
     meals.save()
     return JsonResponse({
         'breakfast': meals.is_fed_breakfast,
