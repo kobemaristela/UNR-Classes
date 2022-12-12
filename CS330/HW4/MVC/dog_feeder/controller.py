@@ -59,4 +59,8 @@ def reset_meals():
     meals.is_fed_lunch = True
     meals.is_fed_dinner = True
     meals.save()
-    return HttpResponseRedirect(reverse("index"))
+    return JsonResponse({
+        'breakfast': meals.is_fed_breakfast,
+        'lunch': meals.is_fed_lunch,
+        'dinner': meals.is_fed_dinner,
+    })
