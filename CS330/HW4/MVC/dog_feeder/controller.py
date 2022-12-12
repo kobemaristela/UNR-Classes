@@ -53,7 +53,7 @@ def get_today_meals():
 
 
 # Testing Purposes
-def rest_meals():
+def reset_meals():
     meals = Fed.objects.get(today=date.today())
     meals.is_fed_breakfast = True
     meals.is_fed_lunch = True

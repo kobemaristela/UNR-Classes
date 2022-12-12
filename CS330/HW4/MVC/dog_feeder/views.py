@@ -78,6 +78,6 @@ def get_today_meals(request):
 
 
 @csrf_exempt
-def rest_meals(request):
+def reset_meals(request):
     if request.method == "POST":
         return controller.rest_meals()

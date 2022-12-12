@@ -11,5 +11,5 @@ urlpatterns = [
     path('getLunch', views.get_lunch),
     path('getDinner', views.get_dinner),
     path('getTodayMeals', views.get_today_meals),
-    path('resetMeals', views.rest_meals)    # Testing Purposes
+    path('resetMeals', views.reset_meals)    # Testing Purposes
 ]
