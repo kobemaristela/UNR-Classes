@@ -1,0 +1,136 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Pet Meal Tracker</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.ico' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" style="background: url('{% static 'img/broccoli.jpeg' %}')">
+    <div class="hero-container">
+        <h1>Pet Meal Tracker</h1>
+        <h2>An app for forgetful pet owners</h2>
+      <a href="#meal" class="btn-get-started scrollto">Track Meal</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="#hero">Pet Meal Tracker</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="#hero" class="logo me-auto me-lg-0"><img src="{% static 'img/logo.jpg' %}" alt="" class="img-fluid">Pet Meal Tracker</a> -->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#meal">Feed Me</a></li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Meals Section ======= -->
+    <section id="meal" class="meal">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Am I Hungry?</h2>
+        </div>
+
+        <div class="section-title">
+            <h1>{{today}}</h1>
+        </div>
+
+        <div class="row justify-content-center">
+            
+          <div class="col-lg-3 col-6 text-center">
+            <button id="btn-breakfast" class="button-breakfast" type="button"></button>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <button id="btn-lunch" class="button-lunch" type="button"></button>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <button id="btn-dinner" class="button-dinner" type="button"></button>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Meal Section -->
+
+    
+    <!-- ======= Meal Counter ======= -->
+    <section id="counts" class="counts">
+        <div class="container">
+  
+          <div class="row counters">
+  
+            <div class="col-lg-7 col-6 text-center">
+              <span data-purecounter-start="0" data-purecounter-end="{{fed}}" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Fed Meals</p>
+            </div>
+  
+            <div class="col-lg-3 col-6 text-center">
+              <span data-purecounter-start="0" data-purecounter-end="{{missed}}" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Missed Meals</p>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Meal Counter Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+  <script src="{% static 'js/script.js' %}"></script>
+
+
+</body>
+</html>
